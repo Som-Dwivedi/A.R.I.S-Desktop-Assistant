@@ -13,3 +13,14 @@ A desktop-based personal AI assistant and automation suite powered by local Larg
 - **GUI:** CustomTkinter
 - **Inference Core:** Ollama (Llama-3)
 - **Networking & Automation:** Requests, Subprocess, Webbrowser
+
+## 🗺️ Roadmap
+- [ ] Asynchronous background threading to prevent UI latency
+- [ ] Offline speech-to-text integration for voice commands
+- [ ] Dynamic tool-calling / system agent capabilities
+
+## ⚙️ Setup & Installation
+1. Install dependencies: `pip install -r requirements.txt`
+2. Ensure Ollama is running with Llama 3: `ollama run llama3`
+3. Launch ARIS: `python main.py`
+
